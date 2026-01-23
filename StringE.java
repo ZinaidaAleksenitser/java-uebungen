@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class StringE {
+
+    /*Return true if the given string contains between 1 and 3 'e' chars. */
     public static void main(String[] args) {
 
         System.out.println("Please enter text");
@@ -22,8 +24,6 @@ public class StringE {
             if (c == 'e' || c == 'E')
                 index++;
         }
-
-        System.out.println(index);
 
         if (index > 0 && index < 4)
             return true;
